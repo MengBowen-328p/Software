@@ -1,4 +1,4 @@
-package org.mbw;
+package game.engine;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
