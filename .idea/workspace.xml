@@ -4,13 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b01913a-aef0-441a-bd46-d707152a2b9e" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/src/main/java/game/engine/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/game/engine/StartMain.java" afterDir="false" />
+    <list default="true" id="3b01913a-aef0-441a-bd46-d707152a2b9e" name="Changes" comment="Update Game Engine Package">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pacman/window/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sprite/apple.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sprite/bell.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sprite/cherry.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sprite/dead.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sprite/floor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sprite/galboss.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sprite/ghost_cyan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sprite/ghost_eyes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sprite/ghost_orange.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sprite/ghost_pink.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sprite/ghost_red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sprite/ghost_vul_blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sprite/ghost_vul_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sprite/key.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sprite/melon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sprite/mspacman.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sprite/orange.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sprite/pacman.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sprite/pellet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sprite/strawberry.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sprite/wall.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mbw/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/mbw/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/game/engine/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/game/engine/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pacman/window/Windows.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/game/engine/StartMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pacman/window/StartMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/game/engine/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pacman/window/WindowsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,15 +72,19 @@
     <option name="jreName" value="#JAVA_HOME" />
   </component>
   <component name="ProjectId" id="2IP8qo22j7NxwMLXF7Z2K25dNt4" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -73,8 +98,8 @@
   }
 }]]></component>
   <component name="RunManager">
-    <configuration name="StartMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.mbw.StartMain" />
+    <configuration name="pacman.window.StartMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pacman.window.StartMain" />
       <module name="Software" />
       <extension name="coverage">
         <pattern>
@@ -88,7 +113,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.StartMain" />
+        <item itemvalue="应用程序.pacman.window.StartMain" />
       </list>
     </recent_temporary>
   </component>
@@ -110,8 +135,17 @@
       <workItem from="1671052081937" duration="1803000" />
       <workItem from="1671106974155" duration="11000" />
       <workItem from="1671111629752" duration="2588000" />
-      <workItem from="1671117373002" duration="2453000" />
+      <workItem from="1671117373002" duration="2693000" />
+      <workItem from="1671375289492" duration="2816000" />
     </task>
+    <task id="LOCAL-00001" summary="Update Game Engine Package">
+      <created>1671122103693</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1671122103693</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,10 +156,32 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Update Game Engine Package" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Game Engine Package" />
   </component>
 </project>

@@ -1,15 +1,16 @@
-package game.engine;
+package pacman.window;
 
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.control.Label;
+import javafx.scene.image.Image;
 import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
 /**
  * Hello world!
  *
  */
-public class App extends Application
+public class Windows extends Application
 {
     public static void main( String[] args )
     {
@@ -24,7 +25,8 @@ public class App extends Application
         String javaVersion = System.getProperty("java.version");
         String javafxVersion = System.getProperty("javafx.version");
         Label l = new Label("Hello, JavaFX " + javafxVersion + ", running on Java " + javaVersion + ".");
-        Scene scene = new Scene(new StackPane(l), 640, 480);
+        Scene scene = new Scene(new StackPane(l), 1024, 768);
+        primaryStage.getIcons().add(new Image("file:src/sprite/key.png"));
         primaryStage.setScene(scene);
         primaryStage.show();
     }
